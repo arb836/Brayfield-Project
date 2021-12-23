@@ -2,7 +2,8 @@
 Included is a detailed description and supporting documents concerning the network and virtual machines created for the in class project.
 The files in this repository were used to configure the network depicted below.
 
-![Images/Project_Diagram.drawio.png](Images/diagram_filename.png)
+![Project_Diagram drawio (1)](https://user-images.githubusercontent.com/90295832/147299119-40e15801-3ca0-4c86-897c-1eb0764b7305.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -72,7 +73,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Images/Capture_docker_ps.png](Images/docker_ps_output.png)
+![Capture_docker_ps](https://user-images.githubusercontent.com/90295832/147299191-45c014aa-881b-4f82-897f-db26660ebb86.PNG)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -92,7 +94,7 @@ SSH into the control node and follow the steps below:
 - Update the _____ file to include...
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
-
+Answer:
 - filebeat-config.yml, /etc/ansible/file/filebeat-configuration.yml
 - edit the /etc/ansible/host file to specify webserver and elkserver ip addresses
 - http://20.127.44.205:5601/app/kibana
