@@ -1,4 +1,4 @@
-# Brayfield-Project
+# ELK Stack Deployment
 Included is a detailed description and supporting documents concerning the network and virtual machines created for the in class project.
 The files in this repository were used to configure the network depicted below.
 
