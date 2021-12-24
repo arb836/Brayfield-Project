@@ -91,7 +91,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to /etc/ansible/roles/elk_install.yml.
 - Update the hosts file to include the IPs of each group so Ansible can determine which machines need to be run on a which playbook
-- Run the playbook, and navigate to http://20.127.44.205:5601/app/kibana
+- Run the playbook, and navigate to http://20.127.85.246:5601/app/kibana
 
 
 
