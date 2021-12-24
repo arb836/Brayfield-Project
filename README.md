@@ -2,7 +2,7 @@
 Included is a detailed description and supporting documents concerning the network and virtual machines created for the in class project.
 The files in this repository were used to configure the network depicted below.
 
-![Project_Diagram drawio (1)](https://user-images.githubusercontent.com/90295832/147299119-40e15801-3ca0-4c86-897c-1eb0764b7305.png)
+![Project_Diagram_Final](https://user-images.githubusercontent.com/90295832/147312596-2c86f6e8-2284-428d-95c1-e0ddee06c2ae.png)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the install-elk.yml file may be used to install only certain pieces of it, such as Filebeat.
@@ -45,7 +45,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 75.87.144.86
+- My public home IP address
 
 Machines within the network can only be accessed by the jumpbox.
 - Jump box vm public ip address is 13.78.206.239, and private ip is 10.0.0.4
@@ -54,10 +54,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 75.87.144.86         |
+| Jump Box | Yes                 | My public home IP    |
 | Web-1    | No                  | 10.0.0.4             |
 | Web-2    | No                  | 10.0.0.4             |
-| Elkvm    | yes                 | 10.0.0.4 75.87.144.86|
+| Elkvm    | yes                 | 10.0.0.4 my public ip|
 
 ### Elk Configuration
 
